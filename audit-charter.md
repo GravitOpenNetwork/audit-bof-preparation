@@ -47,7 +47,9 @@ The AUDIT working group is expected to produce:
 An Informational RFC describing roles, trust relationships, and data flows for interoperable auditing, including the relationship between inter-domain audit entities and signals. This document might also identify needed protocol extensions. 
 
 2. **Audit Data Models and Semantics**
-One or more Standards Track RFC(s) that identify and reuse existing or specify new IETF data models that can represent audit information about agents and delegated systems (e.g., interaction records, references to the identities of participating entities, delegation context, authorization state over time, or action provenance). For interaction records - the expectation is that the group will leverage the VCON format. Extensions to VCON to add data needed to model AI agent conversations will happen within the VCON group, and AUDIT will reference and (as needed) introduce profiles or use cases for it. This applies in general - if existing data models are identified the RFC(s) might create profiles that scope them to a degree of disclosure that is appropriate for audits.
+One or more Standards Track RFC(s) that identify and reuse existing or specify new IETF data models that can represent audit information about agents and delegated systems (e.g., interaction records, references to the identities of participating entities, delegation context, authorization state over time, or action provenance). 
+The record format specified in the VCON WG should be considered for auditing and the AUDIT WG should collaborate with the VCON WG on auditing-related requirements on the record format.
+This applies in general - if existing data models are identified, the AUDIT working group might create profiles that scope them to a degree of disclosure that is appropriate for audits.
 The group will work on the minimal set of audit information and consider a registry to enable experimentation and fast deployment for additional data models.
 
 3. **Protocol Extensions or Profiles**
