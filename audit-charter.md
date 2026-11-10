@@ -75,7 +75,7 @@ The group will work on the minimal set of audit information and consider a regis
 The working group may also define protocol-independent data representations intended for use by non-IETF logging, telemetry, or audit systems, while avoiding standardization of those external systems themselves.
 
 3. **Protocol Extensions or Profiles**
-One or more Standards Track RFCs specifying profiles of, extensions to, or embodiments into existing IETF protocols (e.g., HTTP headers, OAuth token formats, or attestation workflows) to convey audit-related information, reusing the data models from deliverable 2.
+One or more Standards Track RFCs specifying profiles of, extensions to, or embodiments into existing IETF protocols (e.g., HTTP headers, OAuth token formats, or attestation workflows) to convey audit-related information, reusing the data models from deliverable 2. If possible, AUDIT should (re-)use an existing identifier for record correlation such as to be specified by the agentproto WG.
 Whether this work is done in this working group or the respective protocol maintenance group depends on the protocols and needs to be considered on a case by case basis.
 
 4. **Best Practices for Deployment and Operation**
