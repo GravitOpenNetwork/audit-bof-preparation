@@ -49,11 +49,11 @@ An Informational RFC describing roles, trust relationships, and data flows for i
 One or more Standards Track RFC(s) that identify and reuse existing or specify new IETF data models that can represent audit information about agents and delegated systems (e.g., interaction records, references to the identities of participating entities, delegation context, authorization state over time, or action provenance).
 If existing data models are identified the RFC(s) might create profiles that scope them to a degree of disclosure that is appropriate for audits.
 The group will work on the minimal set of audit information and consider a registry to enable experimentation and fast deployment for additional data models.
+The working group may also define protocol-independent data representations intended for use by non-IETF logging, telemetry, or audit systems, while avoiding standardization of those external systems themselves.
 
 3. **Protocol Extensions or Profiles**
-One or more Standards Track RFCs specifying profiles of, extensions to, or embodiments into existing IETF protocols (e.g., HTTP headers, OAuth token formats, attestation workflows, or claims sets in other data items) to convey audit-related information.
+One or more Standards Track RFCs specifying profiles of, extensions to, or embodiments into existing IETF protocols (e.g., HTTP headers, OAuth token formats, or attestation workflows) to convey audit-related information, reusing the data models from deliverable 2.
 Whether this work is done in this working group or the respective protocol maintenance group depends on the protocols and needs to be considered on a case by case basis.
-The working group may also define protocol-independent data representations intended for use by non-IETF logging, telemetry, or audit systems, while avoiding standardization of those external systems themselves.
 
 4. **Best Practices for Deployment and Operation**
 An Informational or BCP document providing guidance for secure, interoperable, and privacy-aware auditing, including correlation across interaction types for different deployment models and trust domains.
