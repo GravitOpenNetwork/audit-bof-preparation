@@ -19,7 +19,7 @@ Auditing must therefore capture authorization as a time-evolving state and corre
 Additionally, agent behavior may be non-deterministic and not fully predefined, requiring auditing mechanisms to capture execution context and structure as they emerge. 
 Auditing must also distinguish between user, agent, and service identities, and ensure audit data can be selectively disclosed such that it remains interpretable across systems without shared assumptions.
 
-Further, audit information must be verifiable by a party that trusts neither the agent nor its operator. That property is what separates audit records from most existing log mechanisms.
+Further, audit information, and its integrity, must be verifiable by a party that trusts neither the agent nor its operator. That property is what separates audit records from most existing log mechanisms.
 
 ## Scope and Goals
 
