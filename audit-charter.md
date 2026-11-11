@@ -65,7 +65,7 @@ Capturing authorization state is essential for auditing, however, the authorizat
 The AUDIT working group is expected to produce:
 
 1. **Architecture for Autonomous Agent Auditing**
-An Informational RFC describing roles, trust relationships, and data flows for interoperable auditing, including the relationship between inter-domain audit entities and signals. This document might also identify needed protocol extensions and describe verification processes and requirements, including their limitations. This may include e.g. the neeed for profiling SCITT or describing how to register an audit record with a SCITT Transparency Service.
+An Informational RFC describing roles, trust relationships, and data flows for interoperable auditing, including the relationship between inter-domain audit entities and signals. This document might also identify needed protocol extensions and describe verification processes and requirements, including their limitations. This may include e.g. the need for profiling SCITT or describing how to register an audit record with a SCITT Transparency Service.
 
 2. **Audit Data Models and Semantics**
 One or more Standards Track RFC(s) that identify and reuse existing or specify new IETF data models that can represent audit information about agents and delegated systems (e.g., interaction records, references to the identities of participating entities, delegation context, authorization state over time, or action provenance). 
